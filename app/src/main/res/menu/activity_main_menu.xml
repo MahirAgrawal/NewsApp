@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/filter"
+        app:showAsAction="always"
+        android:title="View Bookmarked"
+        android:icon="@drawable/filter">
+        <menu>
+            <item
+                android:id="@+id/all"
+                android:title="All"/>
+            <item
+                android:id="@+id/national"
+                android:title="National"/>
+            <item
+                android:id="@+id/entertainment"
+                android:title="Entertainment"/>
+            <item
+                android:id="@+id/business"
+                android:title="Business"/>
+            <item
+                android:id="@+id/politics"
+                android:title="Politics"/>
+            <item
+                android:id="@+id/sports"
+                android:title="Sports"/>
+            <item
+                android:id="@+id/hatke"
+                android:title="Hatke"/>
+            <item
+                android:id="@+id/startup"
+                android:title="Startup"/>
+            <item
+                android:id="@+id/world"
+                android:title="World"/>
+        </menu>
+    </item>
+</menu>
